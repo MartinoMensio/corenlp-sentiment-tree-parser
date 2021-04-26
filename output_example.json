@@ -1,0 +1,204 @@
+[
+  {
+    "constituent": "ROOT",
+    "sentiment": 1,
+    "prob": 0.52,
+    "target": [
+      {
+        "constituent": "NP",
+        "sentiment": 2,
+        "prob": 0.671,
+        "target": [
+          {
+            "constituent": "NP",
+            "sentiment": 2,
+            "prob": 0.995,
+            "target": "Those",
+            "terminal": true
+          },
+          {
+            "constituent": "SBAR",
+            "sentiment": 1,
+            "prob": 0.698,
+            "target": [
+              {
+                "constituent": "WHNP",
+                "sentiment": 2,
+                "prob": 0.994,
+                "target": "who",
+                "terminal": true
+              },
+              {
+                "constituent": "S",
+                "sentiment": 1,
+                "prob": 0.692,
+                "target": [
+                  {
+                    "constituent": "VBP",
+                    "sentiment": 2,
+                    "prob": 0.995,
+                    "target": "find",
+                    "terminal": true
+                  },
+                  {
+                    "constituent": "NP",
+                    "sentiment": 1,
+                    "prob": 0.648,
+                    "target": [
+                      {
+                        "constituent": "NP",
+                        "sentiment": 1,
+                        "prob": 0.736,
+                        "target": [
+                          {
+                            "constituent": "JJ",
+                            "sentiment": 1,
+                            "prob": 0.864,
+                            "target": "ugly",
+                            "terminal": true
+                          },
+                          {
+                            "constituent": "NNS",
+                            "sentiment": 2,
+                            "prob": 0.631,
+                            "target": "meanings",
+                            "terminal": true
+                          }
+                        ],
+                        "terminal": false
+                      },
+                      {
+                        "constituent": "PP",
+                        "sentiment": 3,
+                        "prob": 0.483,
+                        "target": [
+                          {
+                            "constituent": "IN",
+                            "sentiment": 2,
+                            "prob": 0.993,
+                            "target": "in",
+                            "terminal": true
+                          },
+                          {
+                            "constituent": "NP",
+                            "sentiment": 3,
+                            "prob": 0.545,
+                            "target": [
+                              {
+                                "constituent": "JJ",
+                                "sentiment": 4,
+                                "prob": 0.914,
+                                "target": "beautiful",
+                                "terminal": true
+                              },
+                              {
+                                "constituent": "NNS",
+                                "sentiment": 2,
+                                "prob": 0.992,
+                                "target": "things",
+                                "terminal": true
+                              }
+                            ],
+                            "terminal": false
+                          }
+                        ],
+                        "terminal": false
+                      }
+                    ],
+                    "terminal": false
+                  }
+                ],
+                "terminal": false
+              }
+            ],
+            "terminal": false
+          }
+        ],
+        "terminal": false
+      },
+      {
+        "constituent": "@S",
+        "sentiment": 2,
+        "prob": 0.642,
+        "target": [
+          {
+            "constituent": "VP",
+            "sentiment": 2,
+            "prob": 0.701,
+            "target": [
+              {
+                "constituent": "VBP",
+                "sentiment": 2,
+                "prob": 0.992,
+                "target": "are",
+                "terminal": true
+              },
+              {
+                "constituent": "ADJP",
+                "sentiment": 2,
+                "prob": 0.642,
+                "target": [
+                  {
+                    "constituent": "JJ",
+                    "sentiment": 1,
+                    "prob": 0.426,
+                    "target": "corrupt",
+                    "terminal": true
+                  },
+                  {
+                    "constituent": "PP",
+                    "sentiment": 2,
+                    "prob": 0.575,
+                    "target": [
+                      {
+                        "constituent": "IN",
+                        "sentiment": 2,
+                        "prob": 0.973,
+                        "target": "without",
+                        "terminal": true
+                      },
+                      {
+                        "constituent": "S",
+                        "sentiment": 2,
+                        "prob": 0.483,
+                        "target": [
+                          {
+                            "constituent": "VBG",
+                            "sentiment": 2,
+                            "prob": 0.996,
+                            "target": "being",
+                            "terminal": true
+                          },
+                          {
+                            "constituent": "ADJP",
+                            "sentiment": 4,
+                            "prob": 0.849,
+                            "target": "charming",
+                            "terminal": true
+                          }
+                        ],
+                        "terminal": false
+                      }
+                    ],
+                    "terminal": false
+                  }
+                ],
+                "terminal": false
+              }
+            ],
+            "terminal": false
+          },
+          {
+            "constituent": ".",
+            "sentiment": 2,
+            "prob": 0.997,
+            "target": ".",
+            "terminal": true
+          }
+        ],
+        "terminal": false
+      }
+    ],
+    "terminal": false
+  }
+]

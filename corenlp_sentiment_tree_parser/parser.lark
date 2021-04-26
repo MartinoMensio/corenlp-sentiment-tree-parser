@@ -1,0 +1,21 @@
+// This is the grammar for parsing coreNLP sentimentTree
+
+start: expression
+expression: "(" LABEL? "|" sentiment "|" prob target ")"
+target: expression_list | WORD
+expression_list: expression | expression expression_list
+
+sentiment: "sentiment=" INT 
+prob: "prob=" NUMBER
+
+
+// the "|" becomes "X" as label
+LABEL: /[^|]+/
+
+// the ")" becomes "-RRB-"
+WORD: /[^)\s]+/
+
+%import common.WS
+%import common.NUMBER
+%import common.INT
+%ignore WS
